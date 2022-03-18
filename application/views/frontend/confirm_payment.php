@@ -1,0 +1,49 @@
+    <?php echo $header; ?>
+    <div class="bread-crumb-detail-single bgwhite flex-w p-l-52 p-r-15 p-t-20 p-l-15-sm">
+        <a href="<?php echo base_url('') ?>" class="s-text16">
+            Home
+            <i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
+        </a>
+        <span class="s-text17">
+            Konfirmasi Pembayaran
+        </span>
+    </div>
+    <section class="bgwhite p-t-20 p-b-100">
+        <div class="container">
+            <?php if ($this->session->flashdata('MSG')) { ?>
+                <?= $this->session->flashdata('MSG') ?>
+            <?php } ?>
+            <div class="bo17 w-size18 p-l-20 p-r-20 p-t-20 p-b-38 m-t-30 m-r-0 m-l-r-auto p-lr-15-sm">
+                <form class="login_form" action="<?php echo base_url('pages/order-search'); ?>" method="post">
+                    <h5 class="bo18 m-b-20 p-b-20 text-center">
+                        Konfirmasi Order
+                    </h5>
+
+                    <div class="flex-w flex-sb-m p-b-12 bo20">
+                        <div class="col-lg-12 form-group">
+                            <label>ID Order</label>
+                            <input class="form-control" type="text" name="idorder" required="">
+                        </div>
+                    </div>
+
+                    <div class="size15 trans-0-4 p-t-30 m-b-20">
+                        <button class="btn btn-block subs_btn form-control" type="submit">
+                            Cari
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <?php echo $footer; ?>
+    <script>
+        function preview() {
+            var oFReader = new FileReader();
+            oFReader.readAsDataURL(document.getElementById("slip").files[0]);
+            oFReader.onload = function (oFREvent) {
+                document.getElementById("slippreview").src = oFREvent.target.result;
+            };
+        }
+    </script>
+</body>
+</html>

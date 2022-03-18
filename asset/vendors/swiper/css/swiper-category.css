@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2019, 11:23:20 AM
+    Author     : ng_bayu
+*/
+.swiper-container, .swiper-container-new, .swiper-container-vid{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    color: #825a2c;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    padding: 7px;    
+    border: solid 1px #825a2c;
+
+}
+.swiper-button-next, .swiper-button-prev{
+    background-size: 75%;
+    margin-left: -9px;
+    margin-right: -9px;
+    font-weight: 600;
+    color:#825a2c !important;
+}
+.swiper-slide:hover{
+    background-color: #825a2c;
+    color:#fff;
+}
+@media (max-width: 900px){
+    .swiper-slide{
+        width: 40%;
+    }
+}
+@media (max-width: 800px){
+    .swiper-slide{
+        width: 50%;
+    }
+}
+@media (max-width: 640px){
+    .swiper-slide{
+        width: 50%;
+    }
+}
+@media (max-width: 520px){ 
+    .swiper-slide{
+        width: 66%;
+    }
+}
+@media (max-width: 480px){
+    .swiper-slide{
+        width: 70%;
+    } 
+}
+@media (max-width: 320px){ 
+    .swiper-slide{
+        width: 87%;
+    }
+}

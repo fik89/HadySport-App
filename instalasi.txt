@@ -1,0 +1,37 @@
+
+  Welcome E-commerce V.1.12
+
+
+INSTALASI
+
+1.	Extract File Project ke webserver 
+2.	buat database dengan nama db_ecom atau sesuaikan dengan project Anda
+3.	import file database di folder DB/ecom.sql
+4.	setting database server di file /applications/config/database.php
+
+	$db['default'] = array(
+		'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => '',
+		'database' => 'db_ecom',
+
+	Sesuaikan dengan pengaturan server Anda.
+
+5. buka url di browser dengan alamat project Anda
+6. gunakan account default
+	- username 	: dahry@gmail.com
+	- password	: aku
+	- akses admin / dashboard
+
+
+7. Sebelum Anda menghapus username default, silahkan menambahkan dulu account admin.
+	dan jangan lupa menghapus semua transaksi yang ada, karena id order dan id user saling berrelasi.
+
+
+TERIMAKASIH
+Salam Hangat
+Dahry
+
+
+Whatsapp
+085600899245

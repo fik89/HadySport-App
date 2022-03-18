@@ -1,0 +1,17 @@
+1. Penambahan status order menjadi finish, jadi ada tombol finish di admin & pembeli. Sebagai konfirmasi bahwa barang sudah tiba dan tdk ada retur. => DONE
+
+2. Penambahan jenis member : ada 3 jenis member, Member Gold, silver, premium.
+Jadi utk gold dan silver,biaya registrasi dan diskon partner bisa di setting oleh admin. =>
+
+Sedangkan member premium free, dan tdk ada diskon partner
+
+1. Tampilan Flash sale => done
+
+2. Banner pada halaman cek resi disamakan dengan banner pada home dengan fungsi yang sama
+
+3 tag footer =? done
+
+4. Menambahkan informasi metode pembayaran dan jasa pengiriman di home
+best sellernya maksimal 4 grid, sisanya dibuat scroll saja bisa mas? karena kalo saya coba utk menambahkan best seller ke 5, bagian ke 5 ditambahkan dibawahnya. => done
+
+5.  Menambahkan data laporan penjualan,  data berisi (nama produk, nama pembeli, qty, total harga, alamat pengiriman (provinsi,kabupaten,kecamatan ),tgl order,status order)  bisa diexport ke excel.
