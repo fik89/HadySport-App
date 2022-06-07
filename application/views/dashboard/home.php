@@ -129,7 +129,7 @@
                                 </ul>
                             </li>
                             
-                            <li>
+                            <!-- <li>
                                 <a href="#"><i class="fa fa-dollar fa-fw"></i> Keuangan<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
@@ -142,12 +142,12 @@
                                         <a href="JavaScript:void(0);" onclick="laporanPenjualan();"><i class="fa fa-angle-double-right fa-fw"></i> Laporan Penjualan</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="#"><i class="fa fa-share fa-fw"></i> Marketing<span class="fa arrow"></span></a>
+                                <a href="#"><i class="fa fa-share fa-fw"></i> Marketing produk<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="JavaScript:void(0);" onclick="dataProductSale();"><i class="fa fa-angle-double-right fa-fw"></i> Produk Sale</a>
+                                        <a href="JavaScript:void(0);" onclick="dataProductSale();"><i class="fa fa-angle-double-right fa-fw"></i> Flashsale</a>
                                     </li>
                                     <li>
                                         <a href="JavaScript:void(0);" onclick="dataVoucher();"><i class="fa fa-angle-double-right fa-fw"></i> Voucher</a>
@@ -179,7 +179,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                          <!--   <li>
                                 <a href="#"><i class="fa fa-desktop fa-fw"></i> Design<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
 
@@ -221,9 +221,9 @@
 
 
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a href="#"><i class="fa fa-envelope fa-fw"></i> Kontak & Pesan<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
@@ -233,7 +233,7 @@
                                         <a href="JavaScript:void(0);" onclick="dataSubscribe();"><i class="fa fa-angle-double-right fa-fw"></i> Data Email Subcribe</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
                             
                             <li>
                                 <a href="#"><i class="fa fa-wechat fa-fw"></i> Custommer Service<span class="fa arrow"></span></a>
@@ -247,7 +247,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="#"><i class="fa fa-terminal fa-fw"></i> Widget<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
@@ -271,9 +271,9 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
-                             <li>
+                             <!-- <li>
                                 <a href="#"><i class="fa fa-wordpress fa-fw"></i> News / Blog<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
@@ -292,7 +292,7 @@
                                         <a href="JavaScript:void(0);" onclick="pages();"><i class="fa fa-angle-double-right fa-fw"></i> Data Page</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
                             <li>
                                 <a href="#"><i class="fa fa-cogs fa-fw"></i> System<span class="fa arrow"></span></a>
@@ -301,14 +301,14 @@
                                         <a href="JavaScript:void(0);" onclick="settingCompanyProfile();"><i class="fa fa-angle-double-right fa-fw"></i> Settings Toko</a>
                         
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#"><i class="fa fa-angle-double-right fa-fw"></i> Maintenance <span class="fa arrow"></span></a>
                                         <ul class="nav nav-third-level">
                                             <li>
                                                 <a href="JavaScript:void(0);" onclick="listExportdata();"><i class="fa fa-angle-double-right fa-fw"></i> Export Data</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
                             
@@ -316,9 +316,9 @@
                                 <a href="JavaScript:void(0);" onclick="settingcod();"><i class="fa fa-truck fa-fw"></i> Setting COD</a>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="JavaScript:void(0);" onclick="documentation();"><i class="fa fa-book fa-fw"></i> Dokumentasi</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
